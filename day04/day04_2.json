@@ -1,0 +1,104 @@
+{
+    "companyName": "TechGlobal Solutions",
+    "foundedYear": 2018,
+    "isActive": true,
+    "regulatoryStatus": null,
+    "corporateAddress": {
+        "street": "100 Innovation Way",
+        "suite": "Floor 4B",
+        "city": "San Francisco",
+        "state": "CA",
+        "coordinates": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        }
+    },
+    "departments": [
+        {
+            "id": "dept-01",
+            "name": "Engineering",
+            "budget": 450000.50,
+            "projects": [
+                {
+                    "title": "Alpha Cloud Platform",
+                    "version": "3.4.1",
+                    "isCompleted": false,
+                    "tags": [
+                        "cloud",
+                        "aws",
+                        "kubernetes"
+                    ],
+                    "milestones": [
+                        {
+                            "phase": "Design",
+                            "completed": true
+                        },
+                        {
+                            "phase": "Beta Testing",
+                            "completed": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Mobile Core SDK",
+                    "version": "1.0.0",
+                    "isCompleted": true,
+                    "tags": [
+                        "ios",
+                        "android",
+                        "sdk"
+                    ],
+                    "milestones": [
+                        {
+                            "phase": "Production Release",
+                            "completed": true
+                        }
+                    ]
+                }
+            ],
+            "teamLeads": [
+                "Alice Smith",
+                "Bob Jones"
+            ]
+        },
+        {
+            "id": "dept-02",
+            "name": "Data Analytics",
+            "budget": 280000.00,
+            "projects": [
+                {
+                    "title": "Predictive Intelligence Pipeline",
+                    "version": "0.8.0",
+                    "isCompleted": false,
+                    "tags": [
+                        "ai",
+                        "python",
+                        "bigdata"
+                    ],
+                    "milestones": [
+                        {
+                            "phase": "Data Ingestion",
+                            "completed": true
+                        },
+                        {
+                            "phase": "Model Training",
+                            "completed": false
+                        }
+                    ]
+                }
+            ],
+            "teamLeads": [
+                "Charlie Brown"
+            ]
+        }
+    ],
+    "metadata": {
+        "environment": "production",
+        "schemaVersion": 2,
+        "supportedLanguages": [
+            "en",
+            "es",
+            "fr"
+        ]
+    }
+}

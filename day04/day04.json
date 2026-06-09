@@ -1,0 +1,18 @@
+   [ {
+      "id": 1,
+      "name": "Prabhu",
+      "role": "Python Trainer",
+      "salary": 50000
+    },
+    {
+      "id": 2,
+      "name": "Anitha",
+      "role": "AI Trainer",
+      "salary": 55000
+    },
+    {
+      "id": 3,
+      "name": "Karthik",
+      "role": "Software Developer",
+      "salary": 60000
+    }]
