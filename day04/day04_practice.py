@@ -13,3 +13,7 @@ print(file_data['age']>23) #here we are filtering the file content with conditio
 file_condition_result=file_data['age']>23 #storing that values into one varibale
 
 print(file_data[file_condition_result]) #here we are taking the filtered data of condition 
+
+
+xtra:
+df = pd.read_json('data_lines.json', lines=True)
