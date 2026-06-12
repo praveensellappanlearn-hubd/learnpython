@@ -8,3 +8,17 @@
 8. create a method that can receive n number of inputs as sum as integer
 9. create a method that will receive file name or file full path (.txt file) , if the file name end with .txt print the file data
 10. create an own method yourself with your logic
+# ###########################################3
+
+# Todays learning
+1. method with no return
+2. mehod without param
+3. method with mulitple sting into return single string
+4. sum of array method
+5. resuable of method
+6. rm -rf
+7. dictionary method
+8. method with condition in json 
+9. concat of sting
+10. for loop in method
+
