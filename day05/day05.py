@@ -30,4 +30,16 @@ print(data4)
 
 #q5:
 
-def 
+data_dic={'first_name':"praveen",'last_name':"kumar"}
+def dictionarystring(data_dic):
+    #print(data_dic['first_name'])
+    name=data_dic['first_name']+' '+data_dic['last_name']
+    data_dic['full_name']=name
+    print(data_op)
+    return name
+
+data_op=dictionarystring(data_dic)
+ 
+#reusing the older available method
+
+data5 concat(data_dic)
